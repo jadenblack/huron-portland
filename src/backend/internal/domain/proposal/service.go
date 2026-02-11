@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/huron-bangalore/grants-management/internal/domain/common"
+	"github.com/huron-portland/grants-management/internal/domain/common"
 )
 
 // ErrProposalNotFound is returned when a proposal is not found.

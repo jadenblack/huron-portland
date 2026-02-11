@@ -11,7 +11,7 @@
 │   AGENTIC ENGINEERING                           │
 │   Building AI-Native Apps in Under 2 Hours      │
 │                                                 │
-│   Bangalore Hackathon                           │
+│   Portland Hackathon                             │
 │   Presented by rUv (Reuven Cohen)               │
 │                                                 │
 │   ┌─────┐  ┌─────┐  ┌─────┐                    │
@@ -66,4 +66,4 @@ Human → Code         Human → Intent → Agent Swarm → Code
 
 ---
 
-### [ILLUSTRATION: Hero image showing a developer at center with radiating connections to multiple AI agents, each labeled with a role (Coder, Tester, Architect, Reviewer). Background shows a modern city skyline suggesting Bangalore. Color palette: Deep blue, electric purple, white accents.]
+### [ILLUSTRATION: Hero image showing a developer at center with radiating connections to multiple AI agents, each labeled with a role (Coder, Tester, Architect, Reviewer). Background shows a modern city skyline suggesting Portland. Color palette: Deep blue, electric purple, white accents.]

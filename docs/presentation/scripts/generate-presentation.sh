@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
 # generate-presentation.sh
-# Generates the complete Bangalore Hackathon presentation from slide files
+# Generates the complete Portland Hackathon presentation from slide files
 # =============================================================================
 
 set -euo pipefail
@@ -13,7 +13,7 @@ SLIDES_DIR="${PRES_DIR}/slides"
 ADRS_DIR="${PRES_DIR}/adrs"
 
 echo "================================================================="
-echo "  Bangalore Hackathon Presentation Generator"
+echo "  Portland Hackathon Presentation Generator"
 echo "  Agentic Engineering: Building AI-Native Apps in Under 2 Hours"
 echo "================================================================="
 echo ""
@@ -21,7 +21,7 @@ echo ""
 # Header
 cat > "$OUTPUT_FILE" << 'HEADER'
 # Agentic Engineering: Building AI-Native Apps in Under 2 Hours
-## Bangalore Hackathon Presentation
+## Portland Hackathon Presentation
 
 **Presented by**: rUv (Reuven Cohen)
 **Duration**: ~75 minutes (20 slides)

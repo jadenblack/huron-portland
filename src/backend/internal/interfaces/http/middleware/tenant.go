@@ -9,7 +9,7 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
-	"github.com/huron-bangalore/grants-management/internal/domain/common"
+	"github.com/huron-portland/grants-management/internal/domain/common"
 	"github.com/rs/zerolog/log"
 )
 

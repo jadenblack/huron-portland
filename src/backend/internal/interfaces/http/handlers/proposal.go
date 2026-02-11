@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
-	appproposal "github.com/huron-bangalore/grants-management/internal/application/proposal"
-	"github.com/huron-bangalore/grants-management/internal/domain/proposal"
-	"github.com/huron-bangalore/grants-management/internal/interfaces/http/middleware"
+	appproposal "github.com/huron-portland/grants-management/internal/application/proposal"
+	"github.com/huron-portland/grants-management/internal/domain/proposal"
+	"github.com/huron-portland/grants-management/internal/interfaces/http/middleware"
 	"github.com/rs/zerolog/log"
 )
 

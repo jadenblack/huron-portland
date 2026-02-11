@@ -5,9 +5,9 @@ import (
 	"context"
 
 	"github.com/google/uuid"
-	"github.com/huron-bangalore/grants-management/internal/domain/budget"
-	"github.com/huron-bangalore/grants-management/internal/domain/common"
-	"github.com/huron-bangalore/grants-management/internal/domain/proposal"
+	"github.com/huron-portland/grants-management/internal/domain/budget"
+	"github.com/huron-portland/grants-management/internal/domain/common"
+	"github.com/huron-portland/grants-management/internal/domain/proposal"
 )
 
 // ProposalRepository defines the proposal repository port.

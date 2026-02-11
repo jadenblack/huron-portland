@@ -1,8 +1,8 @@
-# Bangalore Hackathon Presentation
+# Portland Hackathon Presentation
 ## Agentic Engineering: Building AI-Native Apps in Under 2 Hours
 
 **Presented by**: rUv (Reuven Cohen)
-**Event**: Bangalore Hackathon
+**Event**: Portland Hackathon
 **Slides**: 23 slides (~60-80 minutes)
 
 ## Run the Presentation

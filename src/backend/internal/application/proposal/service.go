@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/huron-bangalore/grants-management/internal/application/ports"
-	"github.com/huron-bangalore/grants-management/internal/domain/common"
-	"github.com/huron-bangalore/grants-management/internal/domain/proposal"
+	"github.com/huron-portland/grants-management/internal/application/ports"
+	"github.com/huron-portland/grants-management/internal/domain/common"
+	"github.com/huron-portland/grants-management/internal/domain/proposal"
 )
 
 // Service provides application-level operations for proposals.

@@ -37,7 +37,7 @@ const TitleSlide: React.FC<Props> = ({ slide }) => {
               color: slide.accentColor,
             }}
           >
-            Bangalore Hackathon
+            Portland Hackathon
           </span>
         </motion.div>
 

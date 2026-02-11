@@ -51,7 +51,7 @@
 
 ```bash
 # 1. Launch Codespace or clone locally
-gh codespace create --repo ruvnet/huron-bangalore
+gh codespace create --repo ruvnet/huron-portland
 
 # 2. Run setup script
 ./scripts/setup.sh

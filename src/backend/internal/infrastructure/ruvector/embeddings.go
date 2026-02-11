@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/huron-bangalore/grants-management/internal/application/ports"
+	"github.com/huron-portland/grants-management/internal/application/ports"
 )
 
 // EmbeddingGenerator implements the ports.EmbeddingGenerator interface.

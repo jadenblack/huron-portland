@@ -7,7 +7,7 @@ import { Nav } from '@/components/layout/nav';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Huron Bangalore - Proposal Management',
+  title: 'Huron Portland - Proposal Management',
   description: 'AI-powered proposal management system with vector search',
 };
 

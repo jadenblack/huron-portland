@@ -1,11 +1,11 @@
 #!/bin/bash
-# Huron Bangalore Hackathon - Environment Installation Script
+# Huron Portland Hackathon - Environment Installation Script
 # Installs Claude Code, Claude Flow, and all project dependencies
 
 set -e
 
 echo "=============================================="
-echo "  Huron Bangalore Hackathon - Environment Setup"
+echo "  Huron Portland Hackathon - Environment Setup"
 echo "=============================================="
 echo ""
 
@@ -145,14 +145,14 @@ fi
 # 8. Setup bash aliases
 # ============================================
 log_info "Setting up bash aliases..."
-ALIAS_FILE="/workspaces/huron-bangalore/.bashrc.aliases"
+ALIAS_FILE="/workspaces/huron-portland/.bashrc.aliases"
 BASHRC="$HOME/.bashrc"
 
 if [ -f "$ALIAS_FILE" ]; then
     # Check if already sourced
-    if ! grep -q "huron-bangalore/.bashrc.aliases" "$BASHRC" 2>/dev/null; then
+    if ! grep -q "huron-portland/.bashrc.aliases" "$BASHRC" 2>/dev/null; then
         echo "" >> "$BASHRC"
-        echo "# Huron Bangalore Hackathon aliases" >> "$BASHRC"
+        echo "# Huron Portland Hackathon aliases" >> "$BASHRC"
         echo "[ -f $ALIAS_FILE ] && source $ALIAS_FILE" >> "$BASHRC"
         log_info "Aliases added to ~/.bashrc"
     else

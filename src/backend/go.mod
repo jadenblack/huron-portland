@@ -1,4 +1,4 @@
-module github.com/huron-bangalore/grants-management
+module github.com/huron-portland/grants-management
 
 go 1.22
 

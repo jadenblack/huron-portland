@@ -4,7 +4,7 @@ package proposal
 import (
 	"fmt"
 
-	"github.com/huron-bangalore/grants-management/pkg/statemachine"
+	"github.com/huron-portland/grants-management/pkg/statemachine"
 )
 
 // ProposalState represents the current state of a proposal.

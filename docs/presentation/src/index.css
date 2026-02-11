@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  /* Cognitum Design System — adapted for Bangalore Hackathon */
+  /* Cognitum Design System — adapted for Portland Hackathon */
   --primary: 185 80% 50%;      /* Cyan #0bbccc */
   --accent: 142 70% 50%;       /* Green #2eb85c */
   --background: 220 25% 6%;    /* Near-black #0d1117 */

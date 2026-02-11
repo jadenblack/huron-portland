@@ -173,7 +173,7 @@ export default defineConfig({
 
   // Metadata for test reports
   metadata: {
-    project: 'huron-bangalore',
+    project: 'huron-portland',
     environment: process.env.CI ? 'ci' : 'local',
   },
 });

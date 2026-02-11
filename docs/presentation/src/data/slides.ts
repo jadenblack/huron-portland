@@ -36,7 +36,7 @@ export const slides: SlideData[] = [
     background: 'particles',
     accentColor: '#0bbccc',
     sections: [
-      { type: 'text', content: 'Bangalore Hackathon' },
+      { type: 'text', content: 'Portland Hackathon' },
       { type: 'text', content: 'Presented by rUv (Reuven Cohen)' },
       { type: 'text', content: 'Creator of Claude Flow & RuVector' },
     ],
@@ -82,7 +82,7 @@ export const slides: SlideData[] = [
         'Cognitum design system -- glass morphism, gradient accents, glow effects',
         'Data-driven slides -- edit slides.ts, everything updates',
       ]},
-      { type: 'code', language: 'bash', content: '# Run the presentation\ngit clone https://github.com/ruvnet/huron-bangalore\ncd huron-bangalore\n./start-presentation.sh\n# Opens at http://localhost:3003\n\n# Or run manually:\ncd docs/presentation\nnpm install && npm run dev' },
+      { type: 'code', language: 'bash', content: '# Run the presentation\ngit clone https://github.com/ruvnet/huron-portland\ncd huron-portland\n./start-presentation.sh\n# Opens at http://localhost:3003\n\n# Or run manually:\ncd docs/presentation\nnpm install && npm run dev' },
       { type: 'table', headers: ['Stack', 'Tech'], rows: [
         ['Framework', 'React 18 + TypeScript + Vite'],
         ['3D Graphics', 'Three.js (@react-three/fiber + drei)'],
@@ -91,7 +91,7 @@ export const slides: SlideData[] = [
         ['Slides', 'Data-driven from slides.ts'],
       ]},
     ],
-    footer: 'github.com/ruvnet/huron-bangalore -- fork it, make it yours.',
+    footer: 'github.com/ruvnet/huron-portland -- fork it, make it yours.',
   },
 
   // ─────────────────────────────────────────────────
@@ -287,7 +287,7 @@ export const slides: SlideData[] = [
     background: 'flowingLines',
     accentColor: '#f9a825',
     sections: [
-      { type: 'code', language: 'bash', content: '# Clone the repo and run the quick-start script\ngit clone https://github.com/ruvnet/huron-bangalore.git\ncd huron-bangalore\n\n# One command does everything:\n./start-hacking.sh' },
+      { type: 'code', language: 'bash', content: '# Clone the repo and run the quick-start script\ngit clone https://github.com/ruvnet/huron-portland.git\ncd huron-portland\n\n# One command does everything:\n./start-hacking.sh' },
       { type: 'code', language: 'bash', content: '# What start-hacking.sh does:\n# [1/4] System Check   -- node, npm, git, npx\n# [2/4] Claude Flow    -- npm install -g @claude-flow/cli@latest\n# [3/4] Claude Code    -- npm install -g @anthropic-ai/claude-code\n# [4/4] Launch         -- claude --dangerously-skip-permissions\n\n# You\'ll be inside Claude Code, ready to build.' },
       { type: 'table', headers: ['Step', 'What Happens', 'Time'], rows: [
         ['System Check', 'Validates node, npm, git, npx', '~2 sec'],
@@ -364,7 +364,7 @@ export const slides: SlideData[] = [
     background: 'geometric',
     accentColor: '#2eb85c',
     sections: [
-      { type: 'code', language: 'text', content: 'huron-bangalore/\n\u251C\u2500\u2500 src/\n\u2502   \u251C\u2500\u2500 backend/                 # Go Clean Architecture\n\u2502   \u2502   \u251C\u2500\u2500 cmd/server/          # main.go entry point\n\u2502   \u2502   \u2514\u2500\u2500 internal/\n\u2502   \u2502       \u251C\u2500\u2500 domain/          # Pure business logic\n\u2502   \u2502       \u251C\u2500\u2500 application/     # Use cases & services\n\u2502   \u2502       \u251C\u2500\u2500 infrastructure/  # Postgres, RuVector, Embeddings\n\u2502   \u2502       \u2514\u2500\u2500 interfaces/http/ # Handlers + middleware\n\u2502   \u2514\u2500\u2500 frontend/                # Next.js 14\n\u2502       \u251C\u2500\u2500 app/                 # App Router pages\n\u2502       \u251C\u2500\u2500 components/          # React (shadcn/ui)\n\u2502       \u2514\u2500\u2500 lib/wasm/            # rvlite offline search\n\u251C\u2500\u2500 architecture/adrs/           # 10 ADRs\n\u2514\u2500\u2500 CLAUDE.md                    # AI agent instructions' },
+      { type: 'code', language: 'text', content: 'huron-portland/\n\u251C\u2500\u2500 src/\n\u2502   \u251C\u2500\u2500 backend/                 # Go Clean Architecture\n\u2502   \u2502   \u251C\u2500\u2500 cmd/server/          # main.go entry point\n\u2502   \u2502   \u2514\u2500\u2500 internal/\n\u2502   \u2502       \u251C\u2500\u2500 domain/          # Pure business logic\n\u2502   \u2502       \u251C\u2500\u2500 application/     # Use cases & services\n\u2502   \u2502       \u251C\u2500\u2500 infrastructure/  # Postgres, RuVector, Embeddings\n\u2502   \u2502       \u2514\u2500\u2500 interfaces/http/ # Handlers + middleware\n\u2502   \u2514\u2500\u2500 frontend/                # Next.js 14\n\u2502       \u251C\u2500\u2500 app/                 # App Router pages\n\u2502       \u251C\u2500\u2500 components/          # React (shadcn/ui)\n\u2502       \u2514\u2500\u2500 lib/wasm/            # rvlite offline search\n\u251C\u2500\u2500 architecture/adrs/           # 10 ADRs\n\u2514\u2500\u2500 CLAUDE.md                    # AI agent instructions' },
       { type: 'diagram', content: 'CLEAN_ARCHITECTURE' },
     ],
     footer: 'Dependencies flow INWARD only. Infrastructure implements domain interfaces.',
@@ -608,9 +608,9 @@ export const slides: SlideData[] = [
     accentColor: '#0bbccc',
     sections: [
       { type: 'text', content: 'rUv (Reuven Cohen) -- ruv.net' },
-      { type: 'text', content: 'github.com/ruvnet/huron-bangalore' },
+      { type: 'text', content: 'github.com/ruvnet/huron-portland' },
       { type: 'text', content: 'github.com/ruvnet/claude-flow' },
     ],
-    footer: 'Bangalore Hackathon | Presented by rUv',
+    footer: 'Portland Hackathon | Presented by rUv',
   },
 ];

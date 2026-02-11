@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
 # create-from-template.sh
-# Template script to create your own presentation from the Bangalore format
+# Template script to create your own presentation from the Portland format
 # =============================================================================
 
 set -euo pipefail

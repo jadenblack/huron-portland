@@ -14,12 +14,12 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	appproposal "github.com/huron-bangalore/grants-management/internal/application/proposal"
-	"github.com/huron-bangalore/grants-management/internal/infrastructure/postgres"
-	"github.com/huron-bangalore/grants-management/internal/infrastructure/ruvector"
-	httpapi "github.com/huron-bangalore/grants-management/internal/interfaces/http"
-	"github.com/huron-bangalore/grants-management/internal/interfaces/http/handlers"
-	"github.com/huron-bangalore/grants-management/internal/interfaces/http/middleware"
+	appproposal "github.com/huron-portland/grants-management/internal/application/proposal"
+	"github.com/huron-portland/grants-management/internal/infrastructure/postgres"
+	"github.com/huron-portland/grants-management/internal/infrastructure/ruvector"
+	httpapi "github.com/huron-portland/grants-management/internal/interfaces/http"
+	"github.com/huron-portland/grants-management/internal/interfaces/http/handlers"
+	"github.com/huron-portland/grants-management/internal/interfaces/http/middleware"
 )
 
 // Config holds the application configuration.

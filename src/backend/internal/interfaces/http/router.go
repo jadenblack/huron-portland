@@ -9,8 +9,8 @@ import (
 	chimw "github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/cors"
 	"github.com/go-chi/httprate"
-	"github.com/huron-bangalore/grants-management/internal/interfaces/http/handlers"
-	"github.com/huron-bangalore/grants-management/internal/interfaces/http/middleware"
+	"github.com/huron-portland/grants-management/internal/interfaces/http/handlers"
+	"github.com/huron-portland/grants-management/internal/interfaces/http/middleware"
 )
 
 // RouterConfig contains router configuration.

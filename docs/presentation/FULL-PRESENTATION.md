@@ -1,5 +1,5 @@
 # Agentic Engineering: Building AI-Native Apps in Under 2 Hours
-## Bangalore Hackathon Presentation
+## Portland Hackathon Presentation
 
 **Your Host**: rUv
 **Duration**: ~60 minutes (15 slides x ~4 min each)
@@ -50,7 +50,7 @@
 ║   AGENTIC ENGINEERING                             ║
 ║   Building AI-Native Apps in Under 2 Hours        ║
 ║                                                   ║
-║   Bangalore Hackathon                             ║
+║   Portland Hackathon                             ║
 ║   Your Host: rUv                                  ║
 ║                                                   ║
 ╚═══════════════════════════════════════════════════╝
@@ -98,7 +98,7 @@
 
 ---
 
-### [ILLUSTRATION: Hero split -- left side shows the final HCG dashboard (dark mode, stat cards, pipeline, search bar). Right side shows rUv with a swarm of AI agents radiating outward. Bangalore skyline in background. Color: deep blue, electric purple, white.]
+### [ILLUSTRATION: Hero split -- left side shows the final HCG dashboard (dark mode, stat cards, pipeline, search bar). Right side shows rUv with a swarm of AI agents radiating outward. Portland skyline in background. Color: deep blue, electric purple, white.]
 
 ---
 ---
@@ -339,9 +339,9 @@ F=Frontend    T=Tester     V=Reviewer
 
 ```bash
 # 60-second start -- everything pre-installed
-gh codespace create --repo ruvnet/huron-bangalore
+gh codespace create --repo ruvnet/huron-portland
 
-# Or: github.com/ruvnet/huron-bangalore → Code → Codespaces → Create
+# Or: github.com/ruvnet/huron-portland → Code → Codespaces → Create
 
 # Then run:
 ./scripts/setup.sh
@@ -354,8 +354,8 @@ gh codespace create --repo ruvnet/huron-bangalore
 
 ```bash
 # Clone
-git clone https://github.com/ruvnet/huron-bangalore.git
-cd huron-bangalore
+git clone https://github.com/ruvnet/huron-portland.git
+cd huron-portland
 
 # Prerequisites: Node 20+, Go 1.21+, Docker 24+
 
@@ -512,7 +512,7 @@ Layer 4: Swarm (reviewer) → Quality gate
 ## Project Layout
 
 ```
-huron-bangalore/
+huron-portland/
 ├── src/
 │   ├── backend/                    # Go Clean Architecture
 │   │   ├── cmd/server/             # main.go entry point
@@ -1311,7 +1311,7 @@ Assembled in under 2 hours using Agentic Engineering.
 
 ```
 Today:
-  1. Fork the repo: github.com/ruvnet/huron-bangalore
+  1. Fork the repo: github.com/ruvnet/huron-portland
   2. Open a Codespace
   3. Run ./scripts/setup.sh
   4. Start building with Claude Code
@@ -1333,7 +1333,7 @@ This Month:
 
 ```
 Code:
-  github.com/ruvnet/huron-bangalore
+  github.com/ruvnet/huron-portland
   github.com/ruvnet/claude-flow
   github.com/ruvnet/ruvector
 
@@ -1345,7 +1345,7 @@ Docs:
 
 ---
 
-## Thank You, Bangalore!
+## Thank You, Portland!
 
 ```
 ╔═══════════════════════════════════════╗
@@ -1362,7 +1362,7 @@ Docs:
 
 ---
 
-### [ILLUSTRATION: Developer standing at the edge of a digital landscape, looking toward a horizon of floating AI agents and glowing code. HCG dashboard on a screen to their left. Bangalore skyline silhouette. Sunrise gradient (amber to blue). Inspirational future-tech aesthetic.]
+### [ILLUSTRATION: Developer standing at the edge of a digital landscape, looking toward a horizon of floating AI agents and glowing code. HCG dashboard on a screen to their left. Portland skyline silhouette. Sunrise gradient (amber to blue). Inspirational future-tech aesthetic.]
 
 ---
 ---
@@ -1389,5 +1389,5 @@ Docs:
 
 ---
 
-*Bangalore Hackathon -- Presented by rUv*
+*Portland Hackathon -- Presented by rUv*
 *Co-Authored-By: claude-flow <ruv@ruv.net>*

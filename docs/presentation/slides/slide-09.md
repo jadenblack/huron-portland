@@ -6,7 +6,7 @@
 ## Project Layout
 
 ```
-huron-bangalore/
+huron-portland/
 │
 ├── src/
 │   ├── backend/                    # Go Clean Architecture

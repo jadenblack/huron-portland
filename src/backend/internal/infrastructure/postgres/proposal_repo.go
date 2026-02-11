@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/huron-bangalore/grants-management/internal/domain/common"
-	"github.com/huron-bangalore/grants-management/internal/domain/proposal"
+	"github.com/huron-portland/grants-management/internal/domain/common"
+	"github.com/huron-portland/grants-management/internal/domain/proposal"
 	"github.com/jackc/pgx/v5"
 	"github.com/pgvector/pgvector-go"
 )

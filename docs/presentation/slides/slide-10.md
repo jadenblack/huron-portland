@@ -28,12 +28,12 @@
 
 ```bash
 # Step 1: Open the repo on GitHub
-# https://github.com/ruvnet/huron-bangalore
+# https://github.com/ruvnet/huron-portland
 
 # Step 2: Click "Code" → "Codespaces" → "Create codespace"
 # Or use the CLI:
 gh codespace create \
-  --repo ruvnet/huron-bangalore \
+  --repo ruvnet/huron-portland \
   --machine largePremiumLinux
 
 # Step 3: Wait ~60 seconds for setup
@@ -49,8 +49,8 @@ gh codespace create \
 
 ```bash
 # Step 1: Clone
-git clone https://github.com/ruvnet/huron-bangalore.git
-cd huron-bangalore
+git clone https://github.com/ruvnet/huron-portland.git
+cd huron-portland
 
 # Step 2: Prerequisites
 # Install these if missing:

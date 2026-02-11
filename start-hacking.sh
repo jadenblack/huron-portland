@@ -2,7 +2,7 @@
 set -e
 
 # ─────────────────────────────────────────────────
-# Bangalore Hackathon — Quick Start
+# Portland Hackathon — Quick Start
 # ─────────────────────────────────────────────────
 
 CYAN='\033[0;36m'
@@ -14,7 +14,7 @@ BOLD='\033[1m'
 
 echo ""
 echo -e "${CYAN}${BOLD}╔══════════════════════════════════════════════════╗${NC}"
-echo -e "${CYAN}${BOLD}║       Bangalore Hackathon — Agentic Engineering  ║${NC}"
+echo -e "${CYAN}${BOLD}║       Portland Hackathon — Agentic Engineering    ║${NC}"
 echo -e "${CYAN}${BOLD}║       Building AI-Native Apps in Under 2 Hours   ║${NC}"
 echo -e "${CYAN}${BOLD}╚══════════════════════════════════════════════════╝${NC}"
 echo ""
@@ -79,7 +79,7 @@ echo -e "${YELLOW}${BOLD}[4/4] Ready to Hack${NC}"
 echo "──────────────────────────────────────"
 echo ""
 echo -e "  ${CYAN}Presentation:${NC}  ./start-presentation.sh"
-echo -e "  ${CYAN}Repo:${NC}          https://github.com/ruvnet/huron-bangalore"
+echo -e "  ${CYAN}Repo:${NC}          https://github.com/ruvnet/huron-portland"
 echo -e "  ${CYAN}Claude Flow:${NC}   https://github.com/ruvnet/claude-flow"
 echo ""
 echo -e "${GREEN}${BOLD}Starting Claude Code...${NC}"

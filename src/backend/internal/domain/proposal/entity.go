@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/huron-bangalore/grants-management/internal/domain/common"
+	"github.com/huron-portland/grants-management/internal/domain/common"
 	"github.com/pgvector/pgvector-go"
 )
 

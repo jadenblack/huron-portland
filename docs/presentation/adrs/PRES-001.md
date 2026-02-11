@@ -4,7 +4,7 @@
 Accepted
 
 ## Context
-Opening slide for the Bangalore Hackathon needs to establish what Agentic Engineering is, why it matters, and set the tone for the entire session. Attendees may range from junior developers to senior architects.
+Opening slide for the Portland Hackathon needs to establish what Agentic Engineering is, why it matters, and set the tone for the entire session. Attendees may range from junior developers to senior architects.
 
 ## Decision
 - Open with a clear definition of Agentic Engineering as a paradigm shift

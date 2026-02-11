@@ -2,7 +2,7 @@ import { test as base, expect, Page, ConsoleMessage } from '@playwright/test';
 import { ConsoleLogger } from './helpers/console-logger';
 
 /**
- * Custom test fixtures for Huron Bangalore E2E tests
+ * Custom test fixtures for Huron Portland E2E tests
  * Enhanced with console logging, debugging utilities, and test data
  */
 

@@ -10,31 +10,30 @@
 
 ---
 
-## Installation (3 Methods)
+## Installation
 
-### Method 1: npm (Recommended)
+### macOS / Linux (Recommended)
 
 ```bash
-# Install globally
-npm install -g @anthropic-ai/claude-code
-
-# Verify installation
-claude --version
-
-# Start in your project
-cd your-project && claude
+curl -fsSL https://claude.ai/install.sh | bash
 ```
 
-### Method 2: Homebrew (macOS)
+### Windows (Recommended)
 
-```bash
-brew install claude-code
+```powershell
+irm https://claude.ai/install.ps1 | iex
 ```
 
-### Method 3: Direct Download
+### Homebrew (macOS/Linux)
 
 ```bash
-curl -fsSL https://claude.ai/install | sh
+brew install --cask claude-code
+```
+
+### WinGet (Windows)
+
+```bash
+winget install Anthropic.ClaudeCode
 ```
 
 ---
@@ -46,7 +45,7 @@ curl -fsSL https://claude.ai/install | sh
 export ANTHROPIC_API_KEY="sk-ant-..."
 
 # 2. Initialize in your project
-cd /workspaces/huron-bangalore
+cd /workspaces/huron-portland
 claude
 
 # 3. Claude Code reads your codebase automatically:

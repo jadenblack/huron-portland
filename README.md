@@ -497,9 +497,9 @@ flowchart TB
 
 | Attribute | Value |
 |-----------|-------|
-| **Event** | Huron Bangalore Hackathon |
-| **Date** | January 2026 |
-| **Location** | Bengaluru, India |
+| **Event** | Huron Portland Hackathon |
+| **Date** | February 2026 |
+| **Location** | Portland, Oregon |
 | **Presenter** | Reuven Cohen (rUv) |
 | **Host** | Huron Consulting Group |
 
@@ -666,8 +666,8 @@ npx @claude-flow/cli@latest memory search --query "SF424 compliance checklist NI
 
 ```bash
 # Clone repository
-git clone https://github.com/huron/bangalore-hackathon.git
-cd bangalore-hackathon
+git clone https://github.com/ruvnet/huron-portland.git
+cd huron-portland
 
 # Install Claude Code
 npm install -g @anthropic-ai/claude-code
@@ -761,7 +761,7 @@ Teams will be evaluated on (100 points total):
 ## Repository Structure
 
 ```
-huron-bangalore/
+huron-portland/
 ├── README.md                    # This file
 ├── architecture/
 │   ├── IMPLEMENTATION-PLAN.md   # Master implementation plan
@@ -801,7 +801,7 @@ See [`src/dashboard/README.md`](src/dashboard/README.md) and [`src/dashboard/adr
 
 ### Interactive Presentation (`docs/presentation/`)
 
-A standalone animated slideshow app for the Bangalore Hackathon presentation. 15 slides covering Agentic Engineering, the toolchain, architecture, live build plan, and key takeaways -- with Three.js 3D backgrounds, Framer Motion transitions, and PDF export.
+A standalone animated slideshow app for the Portland Hackathon presentation. 15 slides covering Agentic Engineering, the toolchain, architecture, live build plan, and key takeaways -- with Three.js 3D backgrounds, Framer Motion transitions, and PDF export.
 
 ```bash
 cd docs/presentation && npm install && npm run dev
@@ -860,4 +860,4 @@ Proprietary - Huron Consulting Group
 
 ---
 
-*Built with Claude Code, Claude-Flow, and RuVector self-learning technology for the Huron Bangalore Hackathon*
+*Built with Claude Code, Claude-Flow, and RuVector self-learning technology for the Huron Portland Hackathon*

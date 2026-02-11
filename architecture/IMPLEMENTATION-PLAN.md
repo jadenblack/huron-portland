@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-This document outlines the comprehensive implementation plan for the HRS Grants Module, designed for a 2-hour demo at the Huron Bangalore Hackathon. The system supports research grant management from proposal creation through award closeout.
+This document outlines the comprehensive implementation plan for the HRS Grants Module, designed for a 2-hour demo at the Huron Portland Hackathon. The system supports research grant management from proposal creation through award closeout.
 
 ## Project Overview
 
@@ -107,7 +107,7 @@ This document outlines the comprehensive implementation plan for the HRS Grants 
 
 **Directory Structure**:
 ```
-huron-bangalore/
+huron-portland/
 ├── architecture/
 │   ├── adrs/           # Architecture Decision Records
 │   ├── ddd/            # Domain-Driven Design docs

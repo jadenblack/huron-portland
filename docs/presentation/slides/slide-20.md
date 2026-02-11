@@ -48,7 +48,7 @@
 
 ```
 Today:
-  1. Fork the repo: github.com/ruvnet/huron-bangalore
+  1. Fork the repo: github.com/ruvnet/huron-portland
   2. Open a Codespace
   3. Run ./scripts/setup.sh
   4. Start building with Claude Code
@@ -74,7 +74,7 @@ This Month:
 ├─────────────────────────────────────────────────┤
 │                                                 │
 │  Code                                           │
-│  github.com/ruvnet/huron-bangalore              │
+│  github.com/ruvnet/huron-portland              │
 │  github.com/ruvnet/claude-flow                  │
 │  github.com/ruvnet/ruvector                     │
 │                                                 │
@@ -84,7 +84,7 @@ This Month:
 │  RuVector: github.com/ruvnet/ruvector           │
 │                                                 │
 │  Community                                      │
-│  Issues: github.com/ruvnet/huron-bangalore      │
+│  Issues: github.com/ruvnet/huron-portland      │
 │                                                 │
 │  Presented by: rUv (Reuven Cohen)               │
 │  Co-Authored-By: claude-flow <ruv@ruv.net>      │
@@ -94,7 +94,7 @@ This Month:
 
 ---
 
-## Thank You, Bangalore!
+## Thank You, Portland!
 
 ```
      ╔═══════════════════════════════════════╗
@@ -109,4 +109,4 @@ This Month:
 
 ---
 
-### [ILLUSTRATION: A forward-looking scene with a developer standing at the edge of a digital landscape, looking toward a horizon of floating AI agents and glowing code structures. The HCG dashboard is visible on a large screen to their left. Bangalore skyline silhouette in the background. Inspirational, future-tech aesthetic. Color palette: sunrise gradient (amber to blue) suggesting a new era. The developer holds a laptop with Claude Code visible on screen.]
+### [ILLUSTRATION: A forward-looking scene with a developer standing at the edge of a digital landscape, looking toward a horizon of floating AI agents and glowing code structures. The HCG dashboard is visible on a large screen to their left. Portland skyline silhouette in the background. Inspirational, future-tech aesthetic. Color palette: sunrise gradient (amber to blue) suggesting a new era. The developer holds a laptop with Claude Code visible on screen.]

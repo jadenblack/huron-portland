@@ -1,5 +1,5 @@
-# Huron Bangalore Hackathon - Claude Code Aliases
-# Source this file in your .bashrc: source /workspaces/huron-bangalore/.bashrc.aliases
+# Huron Portland Hackathon - Claude Code Aliases
+# Source this file in your .bashrc: source /workspaces/huron-portland/.bashrc.aliases
 
 # Claude Code with dangerous permissions skipped (for automated workflows)
 alias dsp='claude --dangerously-skip-permissions'
@@ -23,4 +23,4 @@ alias hcg-demo='./scripts/demo.sh'
 alias hcg-validate='./scripts/validate.sh'
 alias hcg-test='./scripts/test-e2e.sh'
 
-echo "Huron Bangalore aliases loaded: dsp, dsp-c, cf, hcg-*"
+echo "Huron Portland aliases loaded: dsp, dsp-c, cf, hcg-*"
